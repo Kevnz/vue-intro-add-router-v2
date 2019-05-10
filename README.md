@@ -1,29 +1,8 @@
-# second
+# Code for Intro to Vue talk
 
-## Project setup
-```
-npm install
-```
+This is the second iteration that adds the vue router and a checkout page.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Examples
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* `./src/router.js` - Routes
+* `./src/views/*.vue` - Views
