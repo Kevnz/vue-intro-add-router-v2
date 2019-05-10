@@ -29,7 +29,6 @@ export default {
     ShoppingCart
   },
   data() {
-    console.info("Data in home");
     return {
       cart: window.cart || {
         total: 0,
@@ -206,7 +205,6 @@ export default {
   },
   methods: {
     addToCart(product) {
-      console.log("add to cart", this.cart.items);
       if (this.cart.items.filter(i => i.id === product.id).length === 0) {
         this.cart.items.push({ ...product, quantity: 1 });
       } else {

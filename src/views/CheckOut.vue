@@ -29,7 +29,6 @@ export default {
     ShoppingCart
   },
   data() {
-    console.log("win cart", window.cart);
     return {
       products: window.cart || [],
       cart: window.cart || []
