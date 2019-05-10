@@ -14,7 +14,7 @@
       <div>This is the second iteration that adds the vue router and a checkout page</div>
     </div>
     <a
-      href="https://github.com/Kevnz/vue-intro-third-add-router"
+      href="https://github.com/Kevnz/vue-intro-add-router-v2"
       class="github-corner"
       aria-label="Open GitHub project"
     >
